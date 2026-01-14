@@ -41,7 +41,7 @@
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: shoes
   - type: Bloodstream
-      bloodReferenceSolution:
+    bloodReferenceSolution:
         reagents:
         - ReagentId: Cryoxadone
           Quantity: 300
