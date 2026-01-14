@@ -203,7 +203,7 @@
       sleepingAllowed: false
     - type: ZombieImmune
     - type: Stamina
-      critThreshold: 200
+      baseCritThreshold: 200
     - type: Fixtures
       fixtures:
         fix1:
