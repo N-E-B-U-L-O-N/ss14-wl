@@ -58747,14 +58747,6 @@ entities:
     - type: Transform
       pos: 71.528145,47.469513
       parent: 2
-- proto: ClothingNeckMantleHOS
-  entities:
-  - uid: 8374
-    components:
-    - type: Transform
-      parent: 8373
-    - type: Physics
-      canCollide: False
 - proto: ClothingNeckMantleHOSShoulder
   entities:
   - uid: 8375

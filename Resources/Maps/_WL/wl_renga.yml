@@ -63473,14 +63473,6 @@ entities:
       parent: 8666
     - type: Physics
       canCollide: False
-- proto: ClothingNeckMantleHOS
-  entities:
-  - uid: 10454
-    components:
-    - type: Transform
-      parent: 10587
-    - type: Physics
-      canCollide: False
 - proto: ClothingNeckMantleHOSShoulder
   entities:
   - uid: 8719
