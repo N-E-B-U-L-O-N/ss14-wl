@@ -1055,6 +1055,7 @@
   suffix: Ninja
   components:
   - type: Sprite
+    sprite: Objects/Misc/id_cards.rsi
     layers:
     - state: ninja
     - state: stripe_top
