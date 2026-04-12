@@ -4,7 +4,6 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 
 namespace Content.Shared._WL.Skills;
 
-[Prototype("racialSkillBonus")]
 public sealed partial class RacialSkillBonusPrototype : IPrototype
 {
     [IdDataField]

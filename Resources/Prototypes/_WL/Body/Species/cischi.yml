@@ -229,7 +229,7 @@
   parent: OrganBase
   id: OrganCischi
   abstract: true
-  suffix: akula
+  suffix: cischi
 
 - type: entity
   id: OrganCischiMetabolizer

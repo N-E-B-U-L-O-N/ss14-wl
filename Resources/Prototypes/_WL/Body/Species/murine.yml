@@ -93,10 +93,9 @@
   - AppearanceMurine
   - BaseSpeciesMobOrganic
   id: MobMurine
-  abstract: true
   components:
   - type: Body
-    prototype: HumanoidMurine
+    prototype: Murine
     requiredLegs: 2
   - type: Hunger
     baseDecayRate: 0.032
@@ -153,14 +152,14 @@
   parent: OrganBase
   id: OrganMurine
   abstract: true
-  suffix: akula
+  suffix: murine
 
 - type: entity
   id: OrganMurineMetabolizer
   abstract: true
   components:
   - type: Metabolizer
-    metabolizerTypes: [ Animal, Akula ]
+    metabolizerTypes: [ Animal ]
 
 - type: entity
   parent: OrganMurine

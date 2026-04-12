@@ -85,11 +85,7 @@ namespace Content.Shared.Nutrition.EntitySystems
             {
                 if (_entity.TryGetComponent<HardSlipComponent>(uid, out var hardslip))
                 {
-                    if (hardslip is not null)
-                    {
-                        var damageSpec = new DamageSpecifier(_prototype.Index<DamageTypePrototype>("Blunt"), hardslip.FallDamage);
-                        _damageableSystem.TryChangeDamage(uid, damageSpec);
-                    }
+                    _damageableSystem.TryChangeDamage(uid, hardslip.FallDamage);
                 }
             }
             // WL Golem species end

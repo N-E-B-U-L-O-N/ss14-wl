@@ -328,7 +328,7 @@
   parent: OrganBase
   id: OrganAndroid
   abstract: true
-  suffix: akula
+  suffix: android
 
 - type: entity
   id: OrganAndroidMetabolizer

@@ -143,11 +143,7 @@ public sealed class SlipperySystem : EntitySystem
         // WL Golem species start
         if (_entity.TryGetComponent<HardSlipComponent>(other, out var hardslip))
         {
-            if (hardslip is not null)
-            {
-                var damageSpec = new DamageSpecifier(_prototype.Index<DamageTypePrototype>("Blunt"), hardslip.FallDamage);
-                _damageableSystem.TryChangeDamage(other, damageSpec);
-            }
+            _damageableSystem.TryChangeDamage(other, hardslip.FallDamage);
         }
         // WL Golem species end
 

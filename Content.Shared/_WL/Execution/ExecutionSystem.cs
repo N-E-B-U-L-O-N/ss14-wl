@@ -155,8 +155,8 @@ public sealed class ExecutionSystem : EntitySystem
         var prev = _combatSystem.IsInCombatMode(attacker);
         _combatSystem.SetInCombatMode(attacker, true);
         component.Executing = true;
-        string? internalMsg = null;
-        string? externalMsg = null;
+        //string? internalMsg = null;
+        //string? externalMsg = null;
 
         if (TryComp(uid, out MeleeWeaponComponent? melee))
         {
@@ -176,7 +176,8 @@ public sealed class ExecutionSystem : EntitySystem
             if (damageSpecifier == null)
             {
                 // if can't take damage, use fallback
-                if(_prototypeManager.TryIndex<DamageTypePrototype>("Heat", out var damageType))
+                string damageTypeString = "Heat";
+                if(_prototypeManager.TryIndex<DamageTypePrototype>(damageTypeString, out var damageType))
                 {
                     damageSpecifier = new DamageSpecifier(damageType, component.DamageModifier * 10f);
                 }
