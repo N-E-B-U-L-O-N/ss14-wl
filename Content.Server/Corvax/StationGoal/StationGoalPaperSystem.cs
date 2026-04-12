@@ -128,9 +128,8 @@ namespace Content.Server.Corvax.StationGoal
 
             var amount = _random.Next(config.MinGoals, config.MaxGoals + 1);
             var pickedGoals = PickRandomGoalByWeight(allGoals, amount);
-            if (!_proto.TryGetRandom<StationGoalPrototype>(out var goalsTotal))
-                return;
 
+            var goalsTotal = pickedGoals[0];
             goalsTotal.Text = "";
 
             foreach (var goal in pickedGoals)
