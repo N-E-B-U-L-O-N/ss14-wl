@@ -5,8 +5,7 @@
   prototype: MobGolem
   sprites: MobGolemSprites
   defaultSkinTone: "#FFFFFF"
-  markingLimits: MobGolemMarkingLimits
-  dollPrototype: MobGolemDummy
+  dollPrototype: AppearanceGolem
   maleFirstNames: NamesGolemFirst
   femaleFirstNames: NamesGolemFirst
   maleLastNames: NamesGolemLast

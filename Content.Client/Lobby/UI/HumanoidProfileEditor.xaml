@@ -120,13 +120,6 @@
                                 <Label Text="{Loc 'humanoid-profile-editor-eyes-label'}" />
                                 <humanoid:EyeColorPicker Name="EyeColorPicker" />
                             </BoxContainer>
-                            <!-- WL-Underwear-Start -->
-                            <BoxContainer Margin="10" Orientation="Horizontal">
-                                <humanoid:SingleMarkingPicker Name="CUnderwearPicker" Category="UndergarmentBottom" />
-                                <humanoid:SingleMarkingPicker Name="CUndershirtPicker" Category="UndergarmentTop" />
-                                <humanoid:SingleMarkingPicker Name="CSocksPicker" Category="Socks" />
-                            </BoxContainer>
-                            <!-- WL-Underwear-End -->
                         </BoxContainer>
                     </ScrollContainer>
                 </BoxContainer>

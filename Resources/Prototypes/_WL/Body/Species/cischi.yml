@@ -14,13 +14,10 @@
       required: false
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
-      required: true
+      required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: true
-    enum.HumanoidVisualLayers.SnoutCover:
-      limit: 3
-      required: false
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: true
@@ -246,7 +243,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Cischi/organs.rsi
+    sprite: Mobs/Species/Human/organs.rsi
 
 - type: entity
   id: OrganCischiVisual

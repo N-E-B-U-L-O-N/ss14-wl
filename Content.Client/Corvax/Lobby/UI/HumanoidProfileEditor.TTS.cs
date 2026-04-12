@@ -39,7 +39,7 @@ public sealed partial class HumanoidProfileEditor
 
         _ttsTab.OnPreviewRequested += voiceId =>
         {
-            _entManager.System<TTSSystem>().RequestPreviewTTS(voiceId);
+            _entManager.System<TTSSystem>().RequestPreviewTTS(voiceId, _ttsTab.PreviewTextEdit.Text);
         };
     }
 

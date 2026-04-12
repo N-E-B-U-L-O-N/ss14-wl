@@ -15,12 +15,10 @@
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: true
+      default: [ CatEars ]
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: true
-    enum.HumanoidVisualLayers.SnoutCover:
-      limit: 3
-      required: false
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: true
@@ -167,12 +165,12 @@
 
 - type: entity
   save: false
-  name: Base felinid
+  name: Urist MacFelinid
   parent:
   - AppearanceFelinid
   - MobHuman
   - BaseSpeciesMobOrganic
-  id: MobFelinidBase
+  id: MobFelinid
   abstract: true
   components:
   - type: Vocal
@@ -241,7 +239,7 @@
   parent: OrganBase
   id: OrganFelinid
   abstract: true
-  suffix: akula
+  suffix: felinid
 
 - type: entity
   id: OrganFelinidMetabolizer
@@ -256,7 +254,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Felinid/organs.rsi
+    sprite: Mobs/Species/Human/organs.rsi
 
 - type: entity
   id: OrganFelinidVisual
@@ -264,7 +262,7 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: _WL/Mobs/Species/Felinid/parts.rsi # Mobs/Species/Felinid/parts.rsi #Corvax-Vulp_Port
+      sprite: Mobs/Species/Human/parts.rsi
   - type: VisualOrganMarkings
     markingData:
       group: Felinid
@@ -275,7 +273,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _WL/Mobs/Species/Felinid/parts.rsi #Mobs/Species/Felinid/parts.rsi #Corvax-Vulp_Port
+    sprite: Mobs/Species/Human/parts.rsi #Mobs/Species/Felinid/parts.rsi #Corvax-Vulp_Port
 
 - type: entity
   parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganFelinidExternal ]
@@ -335,6 +333,10 @@
 - type: entity
   parent: [ OrganFelinidVisual, OrganBaseEyes, OrganFelinidInternal ]
   id: OrganFelinidEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
 
 - type: entity
   parent: [ OrganBaseTongue, OrganFelinidInternal ]

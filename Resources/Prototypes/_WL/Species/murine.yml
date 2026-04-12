@@ -2,11 +2,11 @@
   id: Murine
   name: species-name-murine
   roundStart: true
-  prototype: MobHumanoidMurine
+  prototype: MobMurine
   sprites: MobMurineSprites
   defaultSkinTone: "#FFFFFF"
   markingLimits: MobMurineMarkingLimits
-  dollPrototype: MobHumanoidMurineDummy
+  dollPrototype: AppearanceMurine
   skinColoration: Hues
   maxItemHeight: 140
   minHeight: 90

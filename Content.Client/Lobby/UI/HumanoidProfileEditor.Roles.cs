@@ -10,6 +10,7 @@ using Robust.Client.Graphics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Enums;
 
 namespace Content.Client.Lobby.UI;
 
@@ -205,13 +206,36 @@ public sealed partial class HumanoidProfileEditor
                     TextureScale = new Vector2(2, 2),
                     VerticalAlignment = VAlignment.Center
                 };
+
+                var gender = Profile?.Gender ?? Gender.Male; //WL-Changes
+                var subnameSelector = new SubnameSelector(job, gender); //WL-Changes
+
+                //WL-Changes-start
+                subnameSelector.SubnameChanged += (id, subname, isSilent) =>
+                {
+                    Profile = Profile?.WithJobSubname(job.ID, subname);
+
+                    if (!isSilent)
+                    {
+                        SetDirty();
+                    }
+                };
+
+                if (Profile?.JobSubnames.TryGetValue(job.ID, out var subname) == true)
+                {
+                    if (job.GetSubnames(gender).Contains(subname))
+                        subnameSelector.SelectItem(subname, true);
+                    else subnameSelector.SelectItem(job.LocalizedName, true);
+                }
+
                 var jobIcon = _prototypeManager.Index(job.Icon);
                 icon.Texture = _sprite.Frame0(jobIcon.Icon);
-                selector.Setup(items, job.LocalizedName, 200, job.LocalizedDescription, icon, job.Guides);
+
+                selector.Setup(items, subnameSelector, 200, job.LocalizedDescription, icon, job.Guides);
 
                 if (!_requirements.IsAllowed(job, (HumanoidCharacterProfile?)_preferencesManager.Preferences?.SelectedCharacter, out var reason))
                 {
-                    selector.LockRequirements(JobRequirements.JoinReasons(reasons)); // WL-Changes
+                    selector.LockRequirements(JobRequirements.JoinReasons(reason)); // WL-Changes
                 }
                 else
                 {
@@ -246,29 +270,6 @@ public sealed partial class HumanoidProfileEditor
                     UpdateJobPriorities();
                     SetDirty();
                 };
-
-                var gender = Profile?.Gender ?? Gender.Male; //WL-Changes
-                var subnameSelector = new SubnameSelector(job, gender); //WL-Changes
-
-                //WL-Changes-start
-                subnameSelector.SubnameChanged += (id, subname, isSilent) =>
-                {
-                    Profile = Profile?.WithJobSubname(job.ID, subname);
-
-                    if (!isSilent)
-                    {
-                        SetDirty();
-                    }
-                };
-
-                if (Profile?.JobSubnames.TryGetValue(job.ID, out var subname) == true)
-                {
-                    if (job.GetSubnames(gender).Contains(subname))
-                        subnameSelector.SelectItem(subname, true);
-                    else subnameSelector.SelectItem(job.LocalizedName, true);
-                }
-
-                selector.Setup(items, subnameSelector, 200, job.LocalizedDescription, icon, job.Guides);
 
                 var loadoutWindowBtn = new Button()
                 {
@@ -337,7 +338,7 @@ public sealed partial class HumanoidProfileEditor
 
                 jobContainer.AddChild(buttonsContainer);
                 // WL-Skills-Edit-end
-                _jobPriorities.Add((job.ID, selector));
+                _jobPriorities.Add((job.ID, subnameSelector, selector)); // WL-Changes: Subnames
                 category.AddChild(jobContainer);
             }
         }
@@ -380,7 +381,7 @@ public sealed partial class HumanoidProfileEditor
                     (HumanoidCharacterProfile?)_preferencesManager.Preferences?.SelectedCharacter,
                     out var reason))
             {
-                selector.LockRequirements(JobRequirements.JoinReasons(reasons)); // WL-Changes
+                selector.LockRequirements(JobRequirements.JoinReasons(reason)); // WL-Changes
                 Profile = Profile?.WithAntagPreference(antag.ID, false);
                 SetDirty();
             }

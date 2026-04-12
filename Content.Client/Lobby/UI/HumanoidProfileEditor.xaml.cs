@@ -29,6 +29,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
 using static Content.Client.Corvax.SponsorOnlyHelpers; // Corvax-Sponsors
 using Content.Client.Corvax.TTS;
@@ -314,137 +315,6 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion
-
-            // WL-Underwear-Start
-            #region Underwear
-
-            _underwearPicker.OnMarkingSelect += m =>
-            {
-                if (Profile is null)
-                    return;
-
-                if (!_markingManager.Markings.TryGetValue(m.id, out var marking))
-                    return;
-
-                if (_underwearMarking != null)
-                    Profile.Appearance.Markings.Remove(_underwearMarking);
-
-                _underwearMarking = marking.AsMarking();
-                Profile.Appearance.Markings.Add(_underwearMarking);
-
-                SetDirty();
-            };
-            _underwearPicker.OnColorChanged += m =>
-            {
-                if (Profile is null)
-                    return;
-
-                var idx = Profile.Appearance.Markings.IndexOf(m.marking);
-                if (idx > -1)
-                    Profile.Appearance.Markings[idx] = m.marking;
-
-                SetDirty();
-            };
-            _underwearPicker.OnSlotAdd += () =>
-            {
-                if (Profile is null)
-                    return;
-
-                var defaultMarkingId = _markingManager.MarkingsByCategoryAndSpecies(MarkingCategories.UndergarmentBottom, Profile.Species).Keys
-                    .FirstOrDefault();
-
-                if (string.IsNullOrEmpty(defaultMarkingId))
-                    return;
-
-                if (!_markingManager.Markings.TryGetValue(defaultMarkingId, out var defaultMarking))
-                    return;
-
-                _underwearMarking = defaultMarking.AsMarking();
-                Profile.Appearance.Markings.Add(_underwearMarking);
-
-                UpdateUnderwearPicker();
-                SetDirty();
-            };
-            _underwearPicker.OnSlotRemove += _ =>
-            {
-                if (Profile is null)
-                    return;
-
-                if (_underwearMarking != null)
-                    Profile.Appearance.Markings.Remove(_underwearMarking);
-                _underwearMarking = null;
-
-                UpdateUnderwearPicker();
-                SetDirty();
-            };
-
-            #endregion
-
-            #region Undershirt
-
-            _undershirtPicker.OnMarkingSelect += m =>
-            {
-                if (Profile is null)
-                    return;
-
-                if (!_markingManager.Markings.TryGetValue(m.id, out var marking))
-                    return;
-
-                if (_undershirtMarking != null)
-                    Profile.Appearance.Markings.Remove(_undershirtMarking);
-
-                _undershirtMarking = marking.AsMarking();
-                Profile.Appearance.Markings.Add(_undershirtMarking);
-
-                SetDirty();
-            };
-            _undershirtPicker.OnColorChanged += m =>
-            {
-                if (Profile is null)
-                    return;
-
-                var idx = Profile.Appearance.Markings.IndexOf(m.marking);
-                if (idx > -1)
-                    Profile.Appearance.Markings[idx] = m.marking;
-
-                SetDirty();
-            };
-            _undershirtPicker.OnSlotAdd += () =>
-            {
-                if (Profile is null)
-                    return;
-
-                var defaultMarkingId = _markingManager.MarkingsByCategoryAndSpecies(MarkingCategories.UndergarmentTop, Profile.Species).Keys
-                    .FirstOrDefault();
-
-                if (string.IsNullOrEmpty(defaultMarkingId))
-                    return;
-
-                if (!_markingManager.Markings.TryGetValue(defaultMarkingId, out var defaultMarking))
-                    return;
-
-                _undershirtMarking = defaultMarking.AsMarking();
-                Profile.Appearance.Markings.Add(_undershirtMarking);
-
-                UpdateUndershirtPicker();
-                SetDirty();
-            };
-            _undershirtPicker.OnSlotRemove += _ =>
-            {
-                if (Profile is null)
-                    return;
-
-                if (_undershirtMarking != null)
-                    Profile.Appearance.Markings.Remove(_undershirtMarking);
-                _undershirtMarking = null;
-
-                UpdateUndershirtPicker();
-                SetDirty();
-            };
-
-            #endregion
-            // WL-Underwear-End
-
 
             #region SpawnPriority
 

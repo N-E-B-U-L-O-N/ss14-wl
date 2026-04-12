@@ -58,6 +58,8 @@
         Oculine: 1
         Nutriment: 1
 # WL android species start
+    Drink:
+      effects:
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition

@@ -5,8 +5,7 @@
   prototype: MobCischi
   sprites: MobCischiSprites
   defaultSkinTone: "#00D79D"
-  markingLimits: MobCischiMarkingLimits
-  dollPrototype: MobCischiDummy
+  dollPrototype: AppearanceCischi
   skinColoration: Hues
   maleFirstNames: NamesCischiFirst
   femaleFirstNames: NamesCischiFirst

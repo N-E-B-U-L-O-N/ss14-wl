@@ -5,8 +5,7 @@
   prototype: MobAkula
   sprites: MobAkulaSprites
   defaultSkinTone: "#164b60"
-  markingLimits: MobAkulaMarkingLimits
-  dollPrototype: MobAkulaDummy
+  dollPrototype: AppearanceMurine
   skinColoration: Hues
   maleFirstNames: NamesSarengFirst
   femaleFirstNames: NamesSarengFirst

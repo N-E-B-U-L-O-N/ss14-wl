@@ -4,8 +4,7 @@
   roundStart: true
   prototype: MobAndroid
   sprites: MobAndroidSprites
-  markingLimits: MobAndroidMarkingLimits
-  dollPrototype: MobAndroidDummy
+  dollPrototype: AppearanceAndroid
   skinColoration: Hues
   minHeight: 120
   maxHeight: 250

@@ -1,6 +1,6 @@
 - type: markingsGroup
   parent: Undergarments
-  id: Andriod
+  id: Android
   limits:
     enum.HumanoidVisualLayers.Hair:
       limit: 1
@@ -59,33 +59,33 @@
 
 - type: entity
   parent: BaseSpeciesAppearance
-  id: AppearanceAndriod
-  name: vulpkanin appearance
+  id: AppearanceAndroid
+  name: android appearance
   components:
   - type: InitialBody
     organs:
-      Torso: OrganAndriodTorso
-      Head: OrganAndriodHead
-      ArmLeft: OrganAndriodArmLeft
-      ArmRight: OrganAndriodArmRight
-      HandRight: OrganAndriodHandRight
-      HandLeft: OrganAndriodHandLeft
-      LegLeft: OrganAndriodLegLeft
-      LegRight: OrganAndriodLegRight
-      FootLeft: OrganAndriodFootLeft
-      FootRight: OrganAndriodFootRight
-      Brain: OrganAndriodBrain
-      Eyes: OrganAndriodEyes
-      Tongue: OrganAndriodTongue
-      Appendix: OrganAndriodAppendix
-      Ears: OrganAndriodEars
-      Lungs: OrganAndriodLungs
-      Heart: OrganAndriodHeart
-      Stomach: OrganAndriodStomach
-      Liver: OrganAndriodLiver
-      Kidneys: OrganAndriodKidneys
+      Torso: OrganAndroidTorso
+      Head: OrganAndroidHead
+      ArmLeft: OrganAndroidArmLeft
+      ArmRight: OrganAndroidArmRight
+      HandRight: OrganAndroidHandRight
+      HandLeft: OrganAndroidHandLeft
+      LegLeft: OrganAndroidLegLeft
+      LegRight: OrganAndroidLegRight
+      FootLeft: OrganAndroidFootLeft
+      FootRight: OrganAndroidFootRight
+      Brain: OrganAndroidBrain
+      Eyes: OrganAndroidEyes
+      Tongue: OrganAndroidTongue
+      Appendix: OrganAndroidAppendix
+      Ears: OrganAndroidEars
+      Lungs: OrganAndroidLungs
+      Heart: OrganAndroidHeart
+      Stomach: OrganAndroidStomach
+      Liver: OrganAndroidLiver
+      Kidneys: OrganAndroidKidneys
   - type: HumanoidProfile
-    species: Andriod
+    species: Android
   - type: Inventory
     speciesId: vulpkanin
 #Corvax-Vulp_Port start
@@ -167,7 +167,7 @@
 - type: entity
   name: Urist McAndroid
   parent:
-  - AppearanceAndriod
+  - AppearanceAndroid
   - MobBloodstream
   - MobRespirator
   - MobAtmosStandard
@@ -401,51 +401,51 @@
 
 - type: entity
   parent: OrganBase
-  id: OrganAndriod
+  id: OrganAndroid
   abstract: true
   suffix: akula
 
 - type: entity
-  id: OrganAndriodMetabolizer
+  id: OrganAndroidMetabolizer
   abstract: true
   components:
   - type: Metabolizer
     metabolizerTypes: [ Biorobotic ]
 
 - type: entity
-  parent: OrganAndriod
-  id: OrganAndriodInternal
+  parent: OrganAndroid
+  id: OrganAndroidInternal
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Andriod/organs.rsi
+    sprite: _WL/Mobs/Species/Android/organs.rsi
 
 - type: entity
-  id: OrganAndriodVisual
+  id: OrganAndroidVisual
   abstract: true
   components:
   - type: VisualOrgan
     data:
-      sprite: _WL/Mobs/Species/Andriod/parts.rsi # Mobs/Species/Akula/parts.rsi #Corvax-Vulp_Port
+      sprite: _WL/Mobs/Species/Android/parts.rsi # Mobs/Species/Akula/parts.rsi #Corvax-Vulp_Port
   - type: VisualOrganMarkings
     markingData:
-      group: Andriod
+      group: Android
 
 - type: entity
-  parent: [ OrganAndriod, OrganAndriodVisual ]
-  id: OrganAndriodExternal
+  parent: [ OrganAndroid, OrganAndroidVisual ]
+  id: OrganAndroidExternal
   abstract: true
   components:
   - type: Sprite
-    sprite: _WL/Mobs/Species/Andriod/parts.rsi #Mobs/Species/Akula/parts.rsi #Corvax-Vulp_Port
+    sprite: _WL/Mobs/Species/Android/parts.rsi #Mobs/Species/Akula/parts.rsi #Corvax-Vulp_Port
 
 - type: entity
-  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganAndriodExternal ]
-  id: OrganAndriodTorso
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganAndroidExternal ]
+  id: OrganAndroidTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganAndriodExternal ]
-  id: OrganAndriodHead
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganAndroidExternal ]
+  id: OrganAndroidHead
   components:
   - type: VisualOrganMarkings
     hideableLayers:
@@ -459,76 +459,80 @@
       - enum.HumanoidVisualLayers.SnoutCover
 
 - type: entity
-  parent: [ OrganBaseArmLeft, OrganAndriodExternal ]
-  id: OrganAndriodArmLeft
+  parent: [ OrganBaseArmLeft, OrganAndroidExternal ]
+  id: OrganAndroidArmLeft
 
 - type: entity
-  parent: [ OrganBaseArmRight, OrganAndriodExternal ]
-  id: OrganAndriodArmRight
+  parent: [ OrganBaseArmRight, OrganAndroidExternal ]
+  id: OrganAndroidArmRight
 
 - type: entity
-  parent: [ OrganBaseHandLeft, OrganAndriodExternal ]
-  id: OrganAndriodHandLeft
+  parent: [ OrganBaseHandLeft, OrganAndroidExternal ]
+  id: OrganAndroidHandLeft
 
 - type: entity
-  parent: [ OrganBaseHandRight, OrganAndriodExternal ]
-  id: OrganAndriodHandRight
+  parent: [ OrganBaseHandRight, OrganAndroidExternal ]
+  id: OrganAndroidHandRight
 
 - type: entity
-  parent: [ OrganBaseLegLeft, OrganAndriodExternal ]
-  id: OrganAndriodLegLeft
+  parent: [ OrganBaseLegLeft, OrganAndroidExternal ]
+  id: OrganAndroidLegLeft
 
 - type: entity
-  parent: [ OrganBaseLegRight, OrganAndriodExternal ]
-  id: OrganAndriodLegRight
+  parent: [ OrganBaseLegRight, OrganAndroidExternal ]
+  id: OrganAndroidLegRight
 
 - type: entity
-  parent: [ OrganBaseFootLeft, OrganAndriodExternal ]
-  id: OrganAndriodFootLeft
+  parent: [ OrganBaseFootLeft, OrganAndroidExternal ]
+  id: OrganAndroidFootLeft
 
 - type: entity
-  parent: [ OrganBaseFootRight, OrganAndriodExternal ]
-  id: OrganAndriodFootRight
+  parent: [ OrganBaseFootRight, OrganAndroidExternal ]
+  id: OrganAndroidFootRight
 
 - type: entity
-  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganAndriodInternal ]
-  id: OrganAndriodBrain
+  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganAndroidInternal ]
+  id: OrganAndroidBrain
 
 - type: entity
-  parent: [ OrganAndriodVisual, OrganBaseEyes, OrganAndriodInternal ]
-  id: OrganAndriodEyes
+  parent: [ OrganAndroidVisual, OrganBaseEyes, OrganAndroidInternal ]
+  id: OrganAndroidEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
 
 - type: entity
-  parent: [ OrganBaseTongue, OrganAndriodInternal ]
-  id: OrganAndriodTongue
+  parent: [ OrganBaseTongue, OrganAndroidInternal ]
+  id: OrganAndroidTongue
 
 - type: entity
-  parent: [ OrganBaseAppendix, OrganAndriodInternal ]
-  id: OrganAndriodAppendix
+  parent: [ OrganBaseAppendix, OrganAndroidInternal ]
+  id: OrganAndroidAppendix
 
 - type: entity
-  parent: [ OrganBaseEars, OrganAndriodInternal ]
-  id: OrganAndriodEars
+  parent: [ OrganBaseEars, OrganAndroidInternal ]
+  id: OrganAndroidEars
 
 - type: entity
-  parent: [ OrganBaseLungs, OrganAndriodInternal, OrganAndriodMetabolizer ]
-  id: OrganAndriodLungs
+  parent: [ OrganBaseLungs, OrganAndroidInternal, OrganAndroidMetabolizer ]
+  id: OrganAndroidLungs
 
 - type: entity
-  parent: [ OrganBaseHeart, OrganAndriodInternal, OrganAndriodMetabolizer ]
-  id: OrganAndriodHeart
+  parent: [ OrganBaseHeart, OrganAndroidInternal, OrganAndroidMetabolizer ]
+  id: OrganAndroidHeart
 
 - type: entity
-  parent: [ OrganBaseStomach, OrganAndriodInternal, OrganAndriodMetabolizer ]
-  id: OrganAndriodStomach
+  parent: [ OrganBaseStomach, OrganAndroidInternal, OrganAndroidMetabolizer ]
+  id: OrganAndroidStomach
 
 - type: entity
-  parent: [ OrganBaseLiver, OrganAndriodInternal, OrganAndriodMetabolizer ]
-  id: OrganAndriodLiver
+  parent: [ OrganBaseLiver, OrganAndroidInternal, OrganAndroidMetabolizer ]
+  id: OrganAndroidLiver
 
 - type: entity
-  parent: [ OrganBaseKidneys, OrganAndriodInternal, OrganAndriodMetabolizer ]
-  id: OrganAndriodKidneys
+  parent: [ OrganBaseKidneys, OrganAndroidInternal, OrganAndroidMetabolizer ]
+  id: OrganAndroidKidneys
 
 
 - type: entity

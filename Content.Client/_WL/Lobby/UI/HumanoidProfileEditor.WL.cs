@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared._WL.Records; // WL-Records
 using Content.Shared._WL.Skills; // WL-Skills
 using Content.Shared.Roles;
@@ -11,6 +12,7 @@ using Content.Client._WL.Records; // WL-Records
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
+using Robust.Shared.Utility;
 
 namespace Content.Client.Lobby.UI;
 
@@ -272,44 +274,6 @@ public sealed partial class HumanoidProfileEditor
 
             jobSelector.Item2.SelectItem(subname, true); //WL-Changes
         }
-    }
-
-        private void UpdateUndershirtPicker()
-    {
-        if (Profile == null)
-            return;
-
-        _undershirtMarking = Profile.Appearance.Markings.FirstOrDefault(m =>
-            _markingManager.Markings.TryGetValue(m.MarkingId, out var marking) &&
-            marking.MarkingCategory == MarkingCategories.UndergarmentTop);
-
-        var markings = new List<Marking>();
-        if (_undershirtMarking != null)
-            markings.Add(_undershirtMarking);
-
-        _undershirtPicker.UpdateData(
-            markings,
-            Profile.Species,
-            1);
-    }
-
-    private void UpdateUnderwearPicker()
-    {
-        if (Profile == null)
-            return;
-
-        _underwearMarking = Profile.Appearance.Markings.FirstOrDefault(m =>
-            _markingManager.Markings.TryGetValue(m.MarkingId, out var marking) &&
-            marking.MarkingCategory == MarkingCategories.UndergarmentBottom);
-
-        var markings = new List<Marking>();
-        if (_underwearMarking != null)
-            markings.Add(_underwearMarking);
-
-        _underwearPicker.UpdateData(
-            markings,
-            Profile.Species,
-            1);
     }
 
     private void OpenSkills(JobPrototype? jobProto)

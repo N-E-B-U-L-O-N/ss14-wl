@@ -4,8 +4,7 @@
   roundStart: true
   prototype: MobFelinid
   sprites: MobHumanSprites
-  markingLimits: MobFelinidMarkingLimits
-  dollPrototype: MobFelinidDummy
+  dollPrototype: AppearanceFelinid
   skinColoration: HumanToned
   maxItemHeight: 140
   minHeight: 120

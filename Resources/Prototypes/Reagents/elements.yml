@@ -355,7 +355,6 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Golem ]
-      effects:
       - !type:HealthChange
         damage:
           types:
@@ -485,8 +484,8 @@
     Medicine:
       effects:
       - !type:HealthChange
+        damage:
+          Brute: -3
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Golem ]
-        damage:
-          Brute: -3

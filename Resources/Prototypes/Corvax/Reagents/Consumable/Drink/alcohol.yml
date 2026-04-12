@@ -17,10 +17,8 @@
       metabolites:
         Ethanol: 0.07
 # WL android species start
-        conditions:
-        - !type:MetabolizerTypeCondition
-          type: [ Biorobotic ]
-          inverted: true
+    Drink:
+      effects:
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition
