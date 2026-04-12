@@ -97,6 +97,7 @@
     - GunpetInstrument
     - BirdToyInstrument
     - MysteryFigureBox
+    - MysteryFigureBoxWLSpec # WL-Changes
     - PlushieHampter
     - PlushieLizard
     - PlushieRainbowLizard
