@@ -72,11 +72,6 @@
   text: "/ServerInfo/Guidebook/_WL/Mobs/Android.xml"
 
 - type: guideEntry
-  id: Cischi
-  name: species-name-cischi
-  text: "/ServerInfo/Guidebook/_WL/Mobs/Cischi.xml"
-
-- type: guideEntry
   id: Felinid
   name: species-name-felinid
   text: "/ServerInfo/Guidebook/_WL/Mobs/Felinid.xml"
