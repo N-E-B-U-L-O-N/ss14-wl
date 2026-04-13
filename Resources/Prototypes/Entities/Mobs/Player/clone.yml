@@ -50,7 +50,6 @@
   - Languages
   - CharacterInformation
   - GolemAccent
-  - KidanAccent
   # WL-Content-End
   # - ReplacementAccent
   # Not supported at the moment because AddAccentClothingComponent will make it permanent when cloned.

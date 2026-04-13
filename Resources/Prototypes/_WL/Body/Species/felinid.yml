@@ -94,7 +94,6 @@
   - MobHuman
   - BaseSpeciesMobOrganic
   id: MobFelinid
-  abstract: true
   components:
   - type: Vocal
     sounds:
