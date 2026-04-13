@@ -30,8 +30,8 @@
           components:
           - PhotoCameraFilter
   - type: ContainerContainer
-      containers:
-        filter: !type:ContainerSlot
+    containers:
+      filter: !type:ContainerSlot
 
 - type: entity
   name: "photo"
