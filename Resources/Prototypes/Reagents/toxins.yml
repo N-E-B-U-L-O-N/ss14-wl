@@ -61,17 +61,6 @@
         visualType: MediumCaution
         messages: [ "generic-reagent-effect-burning-insides" ]
         probability: 0.33
-# WL species start
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 2
-        conditions:
-        # Golem
-        - !type:MetabolizerTypeCondition
-          type: [ Golem, Animal ]
-          inverted: true
-# WL species end
 
 - type: reagent
   id: ChloralHydrate

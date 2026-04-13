@@ -56,8 +56,8 @@
       FootRight: OrganGolemFootRight
       Brain: OrganGolemCore
       Stomach: OrganGolemFurnace
-  - type: HumanoidProfile
-    species: Golem
+#   - type: HumanoidProfile
+#     species: Golem
   - type: Inventory
     speciesId: reptilian
     femaleDisplacements:

@@ -82,8 +82,8 @@
       Stomach: OrganCischiStomach
       Liver: OrganCischiLiver
       Kidneys: OrganCischiKidneys
-  - type: HumanoidProfile
-    species: Cischi
+#   - type: HumanoidProfile
+#     species: Cischi
   - type: Inventory
     speciesId: reptilian
 #Corvax-Vulp_Port start

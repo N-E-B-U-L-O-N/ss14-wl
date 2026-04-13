@@ -4,7 +4,6 @@
   roundStart: true
   prototype: MobMurine
   defaultSkinTone: "#FFFFFF"
-  markingLimits: MobMurineMarkingLimits
   dollPrototype: AppearanceMurine
   skinColoration: Hues
   maxItemHeight: 140

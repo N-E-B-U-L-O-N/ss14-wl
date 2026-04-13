@@ -237,6 +237,7 @@
       metabolites:
         Theobromine: 0.1
 # WL android species start
+      effects:
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition

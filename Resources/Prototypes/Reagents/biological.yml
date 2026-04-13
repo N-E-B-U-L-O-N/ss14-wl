@@ -44,8 +44,8 @@
         - !type:MetabolizerTypeCondition
           type: [ Akula ]
         damage:
-          Brute: -0.2
           types:
+            Slash: -0.2
             Poison: -0.125 ##Should be about what it was when it healed the toxin group
             Heat: -0.095
             Shock: -0.095

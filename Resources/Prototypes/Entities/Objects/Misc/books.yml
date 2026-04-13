@@ -361,9 +361,9 @@
       color: "#87011c"
     - state: icon_law
       color: "#f7d61a"
-  - type: GuideHelp
-    guides:
-    - WLCorporateLaw # WL-Changes
+#   - type: GuideHelp
+#     guides:
+#     - WLCorporateLaw # WL-Changes
 
 - type: entity
   parent: BookBase

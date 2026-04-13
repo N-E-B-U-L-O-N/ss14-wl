@@ -1,7 +1,7 @@
 - type: marking
   id: UndershirtShirtBand
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -15,7 +15,7 @@
 - type: marking
   id: UndershirtPoloBlue
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -29,7 +29,7 @@
 - type: marking
   id: UndershirtShirtSportBlue
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -43,7 +43,7 @@
 - type: marking
   id: UndershirtPoloGrayYellow
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -57,7 +57,7 @@
 - type: marking
   id: UndershirtShirtSportGreen
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -71,7 +71,7 @@
 - type: marking
   id: UndershirtShirtIan
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -85,7 +85,7 @@
 - type: marking
   id: UndershirtShirtIlovent
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -99,7 +99,7 @@
 - type: marking
   id: UndershirtShirtLover
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -113,7 +113,7 @@
 - type: marking
   id: UndershirtShirtMatroska
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -127,7 +127,7 @@
 - type: marking
   id: UndershirtShirtPeace
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -141,7 +141,7 @@
 - type: marking
   id: UndershirtShirtPogoman
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -155,7 +155,7 @@
 - type: marking
   id: UndershirtPoloRed
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -169,7 +169,7 @@
 - type: marking
   id: UndershirtShirtSportRed
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -183,7 +183,7 @@
 - type: marking
   id: UndershirtTopRed
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -197,7 +197,7 @@
 - type: marking
   id: UndershirtShirtAlien
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -211,7 +211,7 @@
 - type: marking
   id: UndershirtShirtAssblastusa
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -225,7 +225,7 @@
 - type: marking
   id: UndershirtJerseyBlue
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -239,7 +239,7 @@
 - type: marking
   id: UndershirtShirtClown
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -253,7 +253,7 @@
 - type: marking
   id: UndershirtShirtCommie
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -267,7 +267,7 @@
 - type: marking
   id: UndershirtShirtMeat
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -281,7 +281,7 @@
 - type: marking
   id: UndershirtShirtNano
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -295,7 +295,7 @@
 - type: marking
   id: UndershirtShirtQuestion
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -309,7 +309,7 @@
 - type: marking
   id: UndershirtJerseyRed
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -323,7 +323,7 @@
 - type: marking
   id: UndershirtShirtSkull
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -337,7 +337,7 @@
 - type: marking
   id: UndershirtShirtSS14
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -351,7 +351,7 @@
 - type: marking
   id: UndershirtShirtStripes
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -365,7 +365,7 @@
 - type: marking
   id: UndershirtShirtTiedye
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -379,7 +379,7 @@
 - type: marking
   id: UndershirtShirtWhite
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   coloring:
     default:
       type:
@@ -392,7 +392,7 @@
 - type: marking
   id: UndershirtBraSports
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   sexRestriction: Female
   coloring:
     default:
@@ -406,7 +406,7 @@
 - type: marking
   id: UndershirtBraSportsAlt
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   sexRestriction: Female
   coloring:
     default:
@@ -420,7 +420,7 @@
 - type: marking
   id: UndershirtTankFire
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -434,7 +434,7 @@
 - type: marking
   id: UndershirtTankMidriff
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   sexRestriction: Female
   coloring:
     default:
@@ -448,7 +448,7 @@
 - type: marking
   id: UndershirtTankStripes
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -462,7 +462,7 @@
 - type: marking
   id: UndershirtShirtUK
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   forcedColoring: true
   coloring:
     default:
@@ -476,7 +476,7 @@
 - type: marking
   id: UndershirtPoloWhite
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   coloring:
     default:
       type:
@@ -489,7 +489,7 @@
 - type: marking
   id: UndershirtShortSleeveWhite
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   coloring:
     default:
       type:
@@ -502,7 +502,7 @@
 - type: marking
   id: UndershirtTopWhite
   bodyPart: UndergarmentTop
-  groupWhitelist: [Human, SlimePerson, Dwarf, Reptilian, Moth, Arachnid, Akula, Felinid, HumanoidKidanes, Vulpkanines, Android, Murine]
+  groupWhitelist: [Human, Slime, Reptilian, Moth, Arachnid, Akula, Felinid, Vulpkanin, Android, Murine]
   sexRestriction: Female
   coloring:
     default:

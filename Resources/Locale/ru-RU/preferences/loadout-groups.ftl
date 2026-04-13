@@ -47,6 +47,8 @@ loadout-group-bartender-jumpsuit = Бармен, комбинезон
 loadout-group-bartender-outerclothing = Бармен, верхняя одежда
 loadout-group-bartender-shaker = Бармен, шейкер
 
+loadout-group-bartender-glasses = Бармен, очки
+
 loadout-group-chef-head = Шеф-повар, голова
 loadout-group-chef-mask = Шеф-повар, маска
 loadout-group-chef-jumpsuit = Шеф-повар, комбинезон
